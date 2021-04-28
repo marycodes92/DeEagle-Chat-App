@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
+import { Link } from 'react-router-dom'
 
 const Login = () => {
     return (
@@ -24,7 +25,8 @@ const Login = () => {
 
                     <div className="">
                         <div className="text-white items-center justify-center text-center">
-                            <button className="bg-green-500 rounded-full h-15 w-80 h-10 rounded-full m-3 box-border"><a href="./Profilesetup.js">Login</a>
+                            <button className="bg-green-500 rounded-full h-15 w-80 h-10 rounded-full m-3 box-border">
+                                <Link to="/profilesetup">Login</Link>
                             </button>
                         </div>
                     </div>

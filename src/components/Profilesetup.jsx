@@ -6,7 +6,7 @@ const Profilesetup = () => {
         <React.Fragment>
             <Navbar/>
             <div>
-            
+                
             </div>
         </React.Fragment>
     )

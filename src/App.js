@@ -13,6 +13,7 @@ function App() {
       <Route exact path="/" component={Landingpage} />
       <Route exact path="/login" component={Login}/>
       <Route exact path="/signup" component={Signup} />
+      <Route path="" component={} />
       <Pagefooter />
     </BrowserRouter>
   );
