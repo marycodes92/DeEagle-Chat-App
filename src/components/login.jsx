@@ -26,7 +26,7 @@ const Login = () => {
                     <div className="">
                         <div className="text-white items-center justify-center text-center">
                             <button className="bg-green-500 rounded-full h-15 w-80 h-10 rounded-full m-3 box-border">
-                                <Link to="/profilesetup">Login</Link>
+                                <Link to="/profilepage">Login</Link>
                             </button>
                         </div>
                     </div>

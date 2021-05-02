@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar'
-import Image from './chats-image'
+import Image from './imageComp'
 
 
 import Store from './Store'
